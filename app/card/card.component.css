@@ -1,11 +1,19 @@
 .card{
     border-radius:0;
+    cursor: pointer;
 }
 
 .card,
 .card-footer{
     background-color: #FFFFA5;
     border: none;
+}
+
+.card.completed,
+.card.completed .card-footer,
+.card.completed .card-footer i{
+    background-color: #eee;
+    color: #ccc
 }
 
 .card-footer{
